@@ -17,7 +17,8 @@ We're going to be writing a shell script.  First, though... let's figure out wha
 
 What command did you use, and what was its output?
 ----------
-
+date
+Wed Sep 14 12:26:11 EDT 2016
 
 
 ==========
@@ -25,7 +26,14 @@ What command did you use, and what was its output?
 
 What command did you use, and what was its output?
 ----------
-
+cal
+ September 2016
+Su Mo Tu We Th Fr Sa
+             1  2  3
+ 4  5  6  7  8  9 10
+11 12 13 14 15 16 17
+18 19 20 21 22 23 24
+25 26 27 28 29 30
 
 
 ==========
@@ -33,7 +41,8 @@ What command did you use, and what was its output?
 
 What commands did you use to do this?
 ----------
-
+ls
+pwd
 
 
 ==========
@@ -41,15 +50,15 @@ What commands did you use to do this?
 
 What commands did you use to do this?
 ----------
-
-
+touch
+ls
 
 ==========
 5. What are the permissions on your copy_to_backup.sh.
 
 What command did you use to find the permissions?
 ----------
-
+ls -l
 
 
 ==========
@@ -57,7 +66,35 @@ What command did you use to find the permissions?
 
 What commands did you use to do this?  What was the output?
 ----------
+chmod u+x copy_to_backup.sh.
 
+drwxr-x---   2 student  staff      68 Aug 22 14:23 Adlm
+drwxr-xr-x   3 student  staff     102 Aug 22 14:23 Adobe
+drwxr-xr-x   4 student  staff     136 Aug 22 14:23 Applications
+drwx------   6 student  staff     204 Sep 13 16:44 Desktop
+drwx------+ 21 student  staff     714 Sep  6 16:24 Documents
+drwx------+  5 student  staff     170 Sep 13 16:37 Downloads
+drwx------@ 60 student  staff    2040 Aug 22 14:34 Library
+drwxr-xr-x   2 student  staff      68 Aug 22 14:23 MPLABXProjects
+drwx------   7 student  staff     238 Aug 22 15:07 Movies
+drwx------   8 student  staff     272 Aug 22 14:23 Music
+drwx------   5 student  staff     170 Aug 22 14:23 Pictures
+drwxr-xr-x   5 student  staff     170 Aug 22 14:23 Public
+drwxr-xr-x   5 student  staff     170 Aug 22 14:23 Things
+drwxrwxr-x   3 student  staff     102 Feb  6  2013 __MACOSX
+-rwxr--r--   1 student  staff       0 Sep 14 12:28 copy_to_backup.sh.
+-rw-r--r--   1 student  staff   11024 Sep  7 12:16 google.html
+drwxr-xr-x   3 student  staff     102 Aug 22 14:23 isus
+drwxr-xr-x   3 student  staff     102 Sep 14 10:15 lab1
+drwxr-xr-x   2 student  staff      68 Sep 14 10:14 lab2
+drwxr-xr-x   2 student  staff      68 Aug 31 12:39 mtec1002
+drwxr-xr-x   6 student  staff     204 Sep 14 11:39 mtec1002-lab-03
+-rw-r--r--   1 student  staff  919584 Sep 14 10:36 mtec1002-lab-03.tar.gz
+drwxr-xr-x   9 student  staff     306 Sep  7 11:55 mtec1003
+drwxr-xr-x   2 student  staff      68 Sep 14 10:14 myprojects
+-rw-r--r--   1 student  staff       0 Aug 22 14:23 pymel.log
+drwxr-xr-x   2 student  staff      68 Sep 14 10:51 science-fiction
+drwxr-xr-x   2 student  staff      68 Aug 22 14:23 xgen
 
 
 ==========
