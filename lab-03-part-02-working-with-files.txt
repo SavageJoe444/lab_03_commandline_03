@@ -81,7 +81,8 @@ baz.txt	foo.txt
 
 Write the command that you used to move the file.  Copy and paste the output of your file listing below.
 ----------
-
+mv foo.txt qux.txt
+baz.txt	qux.txt
 
 
 ==========
@@ -97,14 +98,14 @@ Write the command that you used to move the file.  Copy and paste the output of 
 Write out the command that you used and what happened.
 ----------
 
-
+rmdir: my_files: Directory not empty
 
 ==========
 14. Try removing the directory called my_files using rm.
 
 Write out the command that you used and what happened.
 ----------
-
+rm: my_files: is a directory
 
 
 ==========
@@ -126,7 +127,7 @@ Use the command called cat on the file to show its contents.
 
 Describe what happened below.
 ----------
-
+The whole page from the book "The Prince" was the output
 
 
 ==========
@@ -138,7 +139,7 @@ Use the command, head, on the file to show the contents of the beginning of the 
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Title: The Prince
 
 
 ==========
@@ -150,7 +151,7 @@ Use tail on the file to show the contents of the end of the file.
 
 Write the command that you used below.  Write the last line of the output below (it should be the title).
 ----------
-
+Title: The Prince
 
 
 ==========
@@ -162,7 +163,8 @@ Use less and more on the file to show the contents of the file.  Try pressing sp
 
 Write the command that you used below.  Describe what spacebar and q does after using either less or more.
 ----------
-
+q exits
+spacebar scrolls
 
 
 ==========
@@ -170,7 +172,6 @@ Write the command that you used below.  Describe what spacebar and q does after 
 
 (Some characteristics that may help your description might be the length of the file, whether or not you'd like to read the whole thing... or just the beginning or end, etc.)
 ----------
-
 
 
 ==========
